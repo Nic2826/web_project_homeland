@@ -1,0 +1,45 @@
+.cover{
+    background-image: url(../images/__item-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0 48px;
+    z-index: 1;
+    
+}
+
+.opacity{
+background-image: url(../images/__overlay.jpg);
+
+}
+
+.cover__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin: 243px auto;
+    text-align: center;
+    z-index: 2;
+
+}
+.cover__title{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.cover__paragraph{
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.cover__button{
+    background: #0278FE;
+    color: #FFFFFF;
+    font-weight: 600px ;
+    border: none;
+    border-radius: 4px;
+    width: 198px;
+    height: 48px;
+    margin: 0 auto;
+}

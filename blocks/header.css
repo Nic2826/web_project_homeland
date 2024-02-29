@@ -1,4 +1,4 @@
-.logo{
+.header__vectors{
     display: flex; 
     position: relative;
     
@@ -13,14 +13,13 @@
 .header__icon__line-horizontal{
     position: absolute;
     top: 40px;
-    left: 624px;
+    left: calc((100% - 32px)/2);
 }
-
 
 .header__icon__line-vertical{
     position: absolute;
     top: 40px;
-    left: 634px;
+    left: calc((100% - 11px)/2);
 }
 
 .header__letras{

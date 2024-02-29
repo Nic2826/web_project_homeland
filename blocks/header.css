@@ -1,11 +1,11 @@
 .header__vectors{
-    display: flex; 
-    position: relative;
-    
+    display: flex;
+    flex-direction: column;
+    position: relative;  
 }
 
 .header__icon{
-    margin: 34px auto 0;  
+    margin: 34px auto 0 auto;  
     position: relative;
     
 }
@@ -24,7 +24,7 @@
 
 .header__letras{
     display: flex;
-    column-gap: 6PX;
+    column-gap: 6px;
     justify-content: center;
     margin-top: 22.45px;
 }

@@ -1,44 +1,44 @@
-.header__vectors{
-    display: flex;
-    flex-direction: column;
-    position: relative;  
+.header__vectors {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.header__icon{
-    margin: 34px auto 0 auto;  
-    position: relative;
+.header__icon {
+  margin: 34px auto 0 auto;
+  position: relative;
 }
 
-.header__icon__line-horizontal{
-    position: absolute;
-    top: 40px;
-    left: calc((100% - 32px)/2);
+.header__icon__line-horizontal {
+  position: absolute;
+  top: 40px;
+  left: calc((100% - 32px) / 2);
 }
 
-.header__icon__line-vertical{
-    position: absolute;
-    top: 40px;
-    left: calc((100% - 11px)/2);
+.header__icon__line-vertical {
+  position: absolute;
+  top: 40px;
+  left: calc((100% - 11px) / 2);
 }
 
-.header__letras{
-    display: flex;
-    column-gap: 6px;
-    justify-content: center;
-    margin-top: 22.45px;
+.header__letras {
+  display: flex;
+  column-gap: 6px;
+  justify-content: center;
+  margin-top: 22.45px;
 }
 
-.header__letras__practicum{
-    display: flex;
-    justify-content: center;
+.header__letras__practicum {
+  display: flex;
+  justify-content: center;
 }
 
-.header__letras__art{
-    display: flex;
-    justify-content: center;
+.header__letras__art {
+  display: flex;
+  justify-content: center;
 }
 
-.header__letras__gallery{
-    display: flex;
-    justify-content: center;
+.header__letras__gallery {
+  display: flex;
+  justify-content: center;
 }

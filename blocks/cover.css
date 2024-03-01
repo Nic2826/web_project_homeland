@@ -1,74 +1,72 @@
- .cover{  
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    position: relative;
-    justify-content: center;
-    
-} 
-
-.cover__image{
-    opacity: 70%;
-    max-width: 100%;
-    display: flex;
-    margin: auto;
+.cover {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+  justify-content: center;
 }
 
-.cover__content{
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
-    text-align: center;
-    z-index: 2;
-    position: absolute; 
-    align-self: center;    
-}
-.cover__title{
-    font-size: 72px;
-    font-weight: 900;
-    margin: 0;
+.cover__image {
+  opacity: 70%;
+  max-width: 100%;
+  display: flex;
+  margin: auto;
 }
 
-.cover__paragraph{
-    font-weight: 400;
-    margin: 0 auto;
+.cover__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  align-self: center;
 }
 
-.cover__button{
-    background: #0278FE;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    border-radius: 4px;
-    width: 198px;
-    height: 48px;
-    margin: 0 auto;
+.cover__title {
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
 }
 
- @media (hover:hover) {
-    .cover__button:hover {
-        cursor: pointer; 
-    }
+.cover__paragraph {
+  font-weight: 400;
+  margin: 0 auto;
+}
 
-    .cover:hover .cover__image {
-        opacity: 20%;
-    }
+.cover__button {
+  background: #0278fe;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  width: 198px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+@media (hover: hover) {
+  .cover__button:hover {
+    cursor: pointer;
+  }
+
+  .cover:hover .cover__image {
+    opacity: 20%;
+  }
 }
 
 @media screen and (width<=600px) {
-        
-    .cover__title{
-        font-size: 32px;
-    }
+  .cover__title {
+    font-size: 32px;
+  }
 
-    .cover__paragraph{
-        font-size: 14px;
-    }
+  .cover__paragraph {
+    font-size: 14px;
+  }
 
-    .cover__content{
-        row-gap: 16px;
-        width: 288px;
-        height: 163px;
-    }
-
+  .cover__content {
+    row-gap: 16px;
+    width: 288px;
+    height: 163px;
+  }
 }

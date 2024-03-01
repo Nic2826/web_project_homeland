@@ -113,7 +113,6 @@
   }
 
   .places__image {
-    max-width: 340px;
     max-height: 340px;
     display: flex;
     max-width: 100%;
@@ -154,7 +153,6 @@
   }
 
   .places__image {
-    max-width: 320px;
     max-height: 320px;
     max-width: 100%;
   }
@@ -165,7 +163,6 @@
     font-weight: 600px;
     border: none;
     border-radius: 4px;
-    width: 288px;
     height: 48px;
     width: 100%;
     grid-column: 1;

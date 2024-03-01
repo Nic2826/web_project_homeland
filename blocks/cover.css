@@ -10,7 +10,6 @@
 .cover__image{
     opacity: 70%;
     max-width: 100%;
-   
     display: flex;
     margin: auto;
 }
@@ -22,10 +21,7 @@
     text-align: center;
     z-index: 2;
     position: absolute; 
-    top: auto;   
-    left: auto;
-    align-self: center;
-    
+    align-self: center;    
 }
 .cover__title{
     font-size: 72px;

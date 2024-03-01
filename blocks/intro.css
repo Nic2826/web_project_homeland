@@ -28,11 +28,9 @@
     margin: 0;
 }
 
-.intro__quote__autor{
-    
+.intro__quote__autor{   
     position: absolute;
     top: calc(80%);
-
     align-self: end;
     margin: 0;
 } 

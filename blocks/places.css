@@ -50,6 +50,14 @@
   grid-row: 2;
 }
 
+.places__artist__name__edit {
+    margin-bottom: 0;
+  }
+
+  .places__artist__name__edit2 {
+    margin-top: 0;
+  }
+
 .places__paragraph {
   grid-column: 2;
   grid-row: 3/-1;

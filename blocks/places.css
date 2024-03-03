@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-.places__title-USA__edit{
+.places__title-USA-edit{
 margin: 0;
 }
 
@@ -54,11 +54,11 @@ margin: 0;
   grid-row: 2;
 }
 
-.places__artist-name__edit {
+.places__artist-name-edit {
     margin-bottom: 0;
   }
 
-  .places__artist-name__edit2 {
+  .places__artist-name-edit2 {
     margin-top: 0;
   }
 

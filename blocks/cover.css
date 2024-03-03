@@ -34,6 +34,10 @@
   margin: 0 auto;
 }
 
+.cover__paragraph__edit{
+  margin: 0;
+}
+
 .cover__button {
   background: #0278fe;
   color: #ffffff;

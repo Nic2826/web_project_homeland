@@ -9,13 +9,13 @@
   position: relative;
 }
 
-.header__icon__line-horizontal {
+.header__icon__line__horizontal {
   position: absolute;
   top: 40px;
   left: calc((100% - 32px) / 2);
 }
 
-.header__icon__line-vertical {
+.header__icon__line__vertical {
   position: absolute;
   top: 40px;
   left: calc((100% - 11px) / 2);

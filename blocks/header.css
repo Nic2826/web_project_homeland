@@ -31,6 +31,8 @@
 .header__letras__practicum {
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  column-gap: 0;
 }
 
 .header__letras__art {

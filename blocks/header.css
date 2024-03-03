@@ -9,13 +9,13 @@
   position: relative;
 }
 
-.header__logo-line--horizontal {
+.header__logo-line-horizontal {
   position: absolute;
   top: 40px;
   left: calc((100% - 32px) / 2);
 }
 
-.header__logo-line--vertical {
+.header__logo-line-vertical {
   position: absolute;
   top: 40px;
   left: calc((100% - 11px) / 2);

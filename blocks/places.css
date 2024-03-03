@@ -20,7 +20,7 @@
   width: 50%;
 }
 
-.places__title__USA {
+.places__title-USA {
   font-size: 72px;
   font-weight: 900;
   grid-column: 1/3;
@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-.places__title__USA__edit{
+.places__title-USA__edit{
 margin: 0;
 }
 
@@ -49,16 +49,16 @@ margin: 0;
   grid-row: 2;
 }
 
-.places__artist__name {
+.places__artist-name {
   grid-column: 2;
   grid-row: 2;
 }
 
-.places__artist__name__edit {
+.places__artist-name__edit {
     margin-bottom: 0;
   }
 
-  .places__artist__name__edit2 {
+  .places__artist-name__edit2 {
     margin-top: 0;
   }
 
@@ -112,7 +112,7 @@ margin: 0;
     grid-row: 1;
   }
 
-  .places__artist__name {
+  .places__artist-name {
     grid-column: 2;
     grid-row: 1;
   }
@@ -158,7 +158,7 @@ margin: 0;
     margin: 0;
   }
 
-  .places__paragraph__edit {
+  .places__paragraph-edit {
     font-size: 16px;
     margin: 0;
     line-height: 26px;

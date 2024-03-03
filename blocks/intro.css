@@ -21,14 +21,14 @@
   padding-right: 295px;
 }
 
-.intro__quote__paragraph {
+.intro__quote-paragraph {
   font-size: 24px;
   font-family: "inter";
   font-weight: 400;
   margin: 0;
 }
 
-.intro__quote__autor {
+.intro__quote-autor {
   position: absolute;
   top: calc(80%);
   align-self: end;
@@ -72,7 +72,7 @@
     display: block;
   }
 
-  .intro__quote__autor {
+  .intro__quote-autor {
     position: relative;
     text-align: end;
   }

@@ -1,46 +1,13 @@
-.header__logo-vectors {
+.header__logo{
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  position: relative;
+  margin: 34px auto 0;
 }
 
-.header__logo-icon {
-  margin: 34px auto 0 auto;
-  position: relative;
-}
-
-.header__logo-line-horizontal {
-  position: absolute;
-  top: 40px;
-  left: calc((100% - 32px) / 2);
-}
-
-.header__logo-line-vertical {
-  position: absolute;
-  top: 40px;
-  left: calc((100% - 11px) / 2);
-}
-
-.header__letras {
-  display: flex;
-  column-gap: 6px;
-  justify-content: center;
-  padding-top: 22.45px;
-}
-
-.header__letras--practicum {
-  display: flex;
-  justify-content: center;
-  padding-top: 0;
-  column-gap: 0;
-}
-
-.header__letras-art {
-  display: flex;
-  justify-content: center;
-}
-
-.header__letras-gallery {
-  display: flex;
-  justify-content: center;
-}
+@media screen and (width<=768px) {
+  .header__logo{
+    max-width: 70%;
+    display: flex;
+    margin: 34px auto 0;
+  }
+  }

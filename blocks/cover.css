@@ -69,4 +69,14 @@
   .cover__content {
     row-gap: 16px;
   }
+
+  .cover__image {
+    max-height: 100%;
+  }
+}
+
+@media screen and (width<=400px) {
+  .cover__image {
+    height: 254px;
+  }
 }

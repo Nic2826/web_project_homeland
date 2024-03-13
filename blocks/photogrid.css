@@ -22,10 +22,6 @@
     padding: 0 48px;
   }
 
-  .photo-grid__item {
-    display: flex;
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 400px) and (min-width: 50px) {
@@ -35,8 +31,4 @@
     row-gap: 16px;
   }
 
-  .photo-grid__item {
-    display: flex;
-    max-width: 100%;
-  }
 }

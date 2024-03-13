@@ -169,6 +169,6 @@
 
   .link {
     font-size: 14px;
-    width: 288px;
+    max-width: 100%;
   }
 }

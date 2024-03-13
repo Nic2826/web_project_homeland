@@ -1,6 +1,7 @@
 .intro {
-  margin: 0 0 0 140px;
-  max-width: 80%;
+  /* margin: 0 0 0 140px; */
+  max-width: 984px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
@@ -42,7 +43,13 @@
   padding-right: 295px;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 734px) {
   .intro {
     margin: 0 24px 0 24px;
     max-width: 100%;
@@ -57,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 839px) and (min-width: 50px) {
+@media screen and (max-width: 500px) {
   .intro {
     margin: 0 16px 0 16px;
     max-width: 100%;

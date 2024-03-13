@@ -1,5 +1,7 @@
 .places {
-  margin: 0 148px;
+  /* margin: 0 148px; */
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 .places__item {

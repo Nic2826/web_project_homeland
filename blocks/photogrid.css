@@ -8,27 +8,29 @@
 }
 
 .photo-grid__item {
-  display: flex;
-  max-width: 100%;
+  width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 16px;
     margin: auto;
-    padding: 0 48px;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 720px;
   }
 
 }
 
-@media screen and (max-width: 400px) and (min-width: 50px) {
+@media screen and (max-width: 734px) {
   .photo-grid {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    max-width: 288px;
+    min-width: unset;
   }
-
 }
